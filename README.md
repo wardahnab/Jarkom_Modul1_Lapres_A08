@@ -22,7 +22,7 @@ Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
          
          ![Nomor 2.1](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%202.1.png)
 
-         Klik File -> EXPORT OBJECT -> HTTP
+         Export file dengan cara Klik File -> EXPORT OBJECT -> HTTP
          
          ![Nomor 2.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%202.2.png)
 
@@ -54,7 +54,7 @@ Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
       
          ![Nomor 4.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%204.2.png)
       
-         Dari filter yang dimasukkan, web yang basic authentication adalah testing.mekanis.me dan aku.pengen.pw
+         Dari filter yang dimasukkan, web yang basic authentication adalah **testing.mekanis.me** dan **aku.pengen.pw**
       
 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 
@@ -72,7 +72,7 @@ Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
 
          Berikut adalah halaman aku.pengen.pw yang sudah dibuka beserta tugas yang ada di dalamnya.
       
-         ![Nomor 5.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%205.2)
+         ![Nomor 5.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%205.2.png)
       
 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
 
@@ -86,7 +86,7 @@ Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
       
          File signature untuk zip adalah 50 4B 03 04 , maka pada hasil follow, search kode tersebut dengan pilihan hex dump
       
-         ![Nomor 6.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%206.2)
+         ![Nomor 6.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%206.2.png)
       
          Hasil pencarian ditemukan, maka show and save file as “Answer.zip”
       
@@ -111,8 +111,7 @@ Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
       
             ![Nomor 6.7](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%206.7.png)
       
-7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
-Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
+7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 
       - Wireshark filter expression :  
          
@@ -120,7 +119,7 @@ Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
       
          ![Nomor 7.1](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%207.1.png)
       
-         Kemudian pada paket pilihan, lakukan follow > TCP stream > show and save data as Raw > save as “473.zip”
+         Kemudian pada paket pilihan, lakukan follow -> TCP stream -> show and save data as Raw -> save as “473.zip”
       
          ![Nomor 7.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%207.2.png)
       
@@ -149,8 +148,7 @@ Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
          Username : dhana
          Password : dhana123
       
-10. Cari file .pdf di wireshark lalu download dan buka file tersebut!
-clue: "25 50 44 46"
+10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46"
 
       - Wireshark filter expression :
 
@@ -162,7 +160,7 @@ clue: "25 50 44 46"
       
          ![Nomor 10.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%2010.2.png)
       
-         Kemudian pada paket pilihan, lakukan follow > TCP stream > show and save data as Raw > save as “1759.pdf”
+         Kemudian pada paket pilihan, lakukan follow -> TCP stream -> show and save data as Raw -> save as “1759.pdf”
       
          ![Nomor 10.3](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%2010.3.png)
       
