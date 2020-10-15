@@ -11,7 +11,7 @@
         ``http.host == “testing.mekanis.me” && http.request``
         
         
-        [gambar](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/edit/main/README.md)
+        https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/edit/main/gambar.jpg
 
           Klik kanan, Follow -> TCP
 
