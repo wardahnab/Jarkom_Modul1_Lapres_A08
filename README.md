@@ -1,16 +1,16 @@
-#Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
+#####Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
 
 **A. Display Filter**
 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 
-**Revisi**
-- Webserver yang digunakan adalah
+    **Revisi**
+      - Webserver yang digunakan adalah
 
-- Wireshark filter expression :
+      - Wireshark filter expression :
 
-``http.host == “testing.mekanis.me” && http.request``
+        ``http.host == “testing.mekanis.me” && http.request``
 
-Klik kanan, Follow -> TCP
+          Klik kanan, Follow -> TCP
 
 (gambar)
 
