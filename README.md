@@ -1,4 +1,4 @@
-#####Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
+######Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
 
 **A. Display Filter**
 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
@@ -9,6 +9,9 @@
       - Wireshark filter expression :
 
         ``http.host == “testing.mekanis.me” && http.request``
+        
+        
+        [gambar](bla.jpg)
 
           Klik kanan, Follow -> TCP
 
@@ -16,31 +19,32 @@
 
 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 
-Wireshark filter expression :  
+      - Wireshark filter expression :
 
-``http contains "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"``
+         ``http contains "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"``
 (gambar)
 
-Klik File -> EXPORT OBJECT -> HTTP
+         Klik File -> EXPORT OBJECT -> HTTP
 (gambar)
 
-lalu save file dengan nama "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"
-gambar akan tersimpan
+         lalu save file dengan nama "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"
+         
+         gambar akan tersimpan
 
-gambar yang didownload :
+         gambar yang didownload :
 (gambar)
-
 
 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
 
-- Wireshark filter expression
-``http.host == ppid.dpr.go.id && http.request.method == POST``
+         - Wireshark filter expression
+            
+            ``http.host == ppid.dpr.go.id && http.request.method == POST``
 
 (gambar)
 
-Username :10pemuda
+            Username :10pemuda
 
-Password : guncangdunia
+            Password : guncangdunia
 
 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 
