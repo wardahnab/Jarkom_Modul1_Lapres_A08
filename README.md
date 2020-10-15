@@ -4,15 +4,15 @@
 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 
     **Revisi**
-      - Webserver yang digunakan adalah
+      - Webserver yang digunakan adalah nginx/1.14.0 (Ubuntu)
 
       - Wireshark filter expression :
 
         ```http.host == “testing.mekanis.me” && http.request```
 
           Klik kanan, Follow -> TCP
-
-(gambar)
+          
+          ![Nomor1]
 
 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
       
