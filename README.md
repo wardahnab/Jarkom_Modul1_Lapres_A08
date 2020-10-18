@@ -1,6 +1,6 @@
-Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
+# Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
 
-**A. Display Filter**
+## A. Display Filter
 
 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 
@@ -188,15 +188,19 @@ Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
    
    **Revisi**
    
-      - Wireshark filter expression :
+      - Wireshark filter expression :  
       
-         ```ftp contains“Microsoft” kemudian src diambil menjadi ftp.request.command == RETR && ip.dst == 198.246.117.106```
+         ```` ftp contains “Microsoft” ````
+         
+         ![Nomor 8.1](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%208.1.png)
+         
+         kemudian src dari hasil tersebut, ```` 198.246.117.106 ```` diambil dan dijadikan destination digabungkan dengan command untuk mengambil objek yang didownload (RETR) dengan command ```` ftp.request.command == RETR && ip.dst == 198.246.117.106 ````
 
          Objek yang didownload :
       
          - Readme
          
-         ![Nomor 8](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%208.png)
+         ![Nomor 8.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%208.2.png)
       
 9. Cari username dan password ketika login FTP pada localhost!
 
@@ -230,7 +234,7 @@ Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
       
          ![Nomor 10.1](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%2010.1.png)
       
-         Selain itu, file juga bisa diambil dengan mencari paket yang mengandung 25 50 44 46
+         Selain itu, file juga bisa diambil dengan mencari paket yang mengandung 25 50 44 46 melalui ```` ctrl + f ```` kemudian masukkan ```` 25 50 44 46 ```` dengan tipe **Hex value**
       
          ![Nomor 10.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%2010.2.png)
       
@@ -244,7 +248,7 @@ Lapres Praktikum Modul 1 Jaringan Komputer Kelompok A08
 
 
 
-**B. Capture Filter**
+## B. Capture Filter
 
 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
