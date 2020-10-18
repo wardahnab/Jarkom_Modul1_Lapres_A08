@@ -50,6 +50,10 @@
       
       ![Nomor 3 Jawaban.2](https://github.com/wardahnab/Jarkom_Modul1_Lapres_A08/blob/main/Nomor%203.2Jawaban.png)
       
+        Username : 10pemuda
+         
+        Password : guncangdunia
+      
    **Revisi**
    
       - Wireshark filter expression :
@@ -60,7 +64,7 @@
          
          Username :10pemuda
 
-         Password :guncangdunia
+         Password : guncangdunia
          
 4. Temukan paket dari web-web yang menggunakan basic authentication method!
    
